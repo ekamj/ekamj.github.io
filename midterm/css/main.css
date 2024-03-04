@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(99, 106, 99);
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: bisque;
+    margin-left: 20px;
+    text-align: center;
+}
+h2{
+    color: bisque;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+ul {
+    list-style-type: disc;   
+}
+  
+form {
+        margin: auto;
+        border: 100cap;
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+     }
+
+div{
+    width: auto;
+    height: auto;
+    outline: 1px solid black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+h6{
+    text-align: end;
+}
